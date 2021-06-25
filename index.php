@@ -12,13 +12,19 @@
 <h3> PHP + MySQL </h3>
 <?php
 
-$conn_string = "host=localhost port=5432 dbname=postgres user=postgres password=sherlock";
-$db_connect = pg_connect($conn_string);
- if($db_connect != ""){
-     echo "S-a conectat la baza de date!";
- }else{
-     echo "Nu s-a conectat la baza de date!";
- }
+
+$host = "host = localhost";
+$port = "port = 5432";
+$dbname = "dbname = postgres";
+$credentials = "user = postgres password=sherlock";
+
+$db = pg_connect("$host $port $dbname $credentials");
+if (!$db) {
+    echo "Error : Nu se poate deschide baza de date\n";
+} else {
+    echo "Baza de date a fost deschisă cu succes\n";
+}
+
 
 ?>
 </body>
