@@ -23,20 +23,12 @@ if (!$db) {
 } else {
     //echo "Baza de date a fost deschisă cu succes\n";
     //echo "Baza de date a fost deschisă cu succes pe : " . pg_host($db) . "<br/>\n";
-    $result = pg_query($db, "CREATE TABLE users (
-                          user_id serial PRIMARY KEY,
-                          username VARCHAR ( 50 ) UNIQUE NOT NULL,
-                          password VARCHAR ( 32 ) NOT NULL,
-                          email VARCHAR ( 255 ) UNIQUE NOT NULL,
-                          created_on TIMESTAMP NOT NULL,
-                          last_login TIMESTAMP
-                        );");
+    $result = pg_query($db, "INSERT INTO users (username, password, email, created_on) VALUES ('Barel','ZpCKjwyQtrpgpAqRee123udn5s4jTDXw','barel@gmail.com', '2010-07-22')");
     if ($result != "") {
         echo "The table was created successfully.\n";
         exit;
     }
 }
-
 
 pg_close($db);
 ?>

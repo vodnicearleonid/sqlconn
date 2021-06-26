@@ -789,7 +789,7 @@ false Zulu
     <database id="2" parent="1" name="dbphpsql">
       <ObjectId>21094</ObjectId>
       <Owner>vodnicear</Owner>
-      <IntrospectionStateNumber>16101</IntrospectionStateNumber>
+      <IntrospectionStateNumber>16117</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|21135|21137|1
 </Relations>
@@ -948,7 +948,7 @@ UC/10
 </Acl>
       <StateNumber>287</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>16102</IntrospectionStateNumber>
+      <IntrospectionStateNumber>16118</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="23" parent="2" name="plpgsql">
@@ -1141,7 +1141,7 @@ UC/10
     <table id="45" parent="22" name="users">
       <ObjectId>21137</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>16100</StateNumber>
+      <StateNumber>16113</StateNumber>
     </table>
     <column id="46" parent="45" name="user_id">
       <Position>1</Position>
@@ -1174,20 +1174,13 @@ UC/10
     </column>
     <column id="50" parent="45" name="created_on">
       <Position>5</Position>
-      <DataType>timestamp|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>16100</StateNumber>
-      <TypeId>1114</TypeId>
+      <DataType>date|0s</DataType>
+      <StateNumber>16108</StateNumber>
+      <TypeId>1082</TypeId>
     </column>
-    <column id="51" parent="45" name="last_login">
-      <Position>6</Position>
-      <DataType>timestamp|0s</DataType>
-      <StateNumber>16100</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <index id="52" parent="45" name="users_pkey">
+    <index id="51" parent="45" name="users_pkey">
       <ObjectId>21141</ObjectId>
-      <StateNumber>16100</StateNumber>
+      <StateNumber>16113</StateNumber>
       <ColNames>user_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1195,9 +1188,9 @@ UC/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <index id="53" parent="45" name="users_username_key">
+    <index id="52" parent="45" name="users_username_key">
       <ObjectId>21143</ObjectId>
-      <StateNumber>16100</StateNumber>
+      <StateNumber>16113</StateNumber>
       <ColNames>username</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
@@ -1205,9 +1198,9 @@ UC/10
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <index id="54" parent="45" name="users_email_key">
+    <index id="53" parent="45" name="users_email_key">
       <ObjectId>21145</ObjectId>
-      <StateNumber>16100</StateNumber>
+      <StateNumber>16113</StateNumber>
       <ColNames>email</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
@@ -1215,20 +1208,20 @@ UC/10
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="55" parent="45" name="users_pkey">
+    <key id="54" parent="45" name="users_pkey">
       <ObjectId>21142</ObjectId>
       <StateNumber>16100</StateNumber>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
-    <key id="56" parent="45" name="users_username_key">
+    <key id="55" parent="45" name="users_username_key">
       <ObjectId>21144</ObjectId>
       <StateNumber>16100</StateNumber>
       <ColNames>username</ColNames>
       <UnderlyingIndexName>users_username_key</UnderlyingIndexName>
     </key>
-    <key id="57" parent="45" name="users_email_key">
+    <key id="56" parent="45" name="users_email_key">
       <ObjectId>21146</ObjectId>
       <StateNumber>16100</StateNumber>
       <ColNames>email</ColNames>
