@@ -57,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624540280339</updated>
       <workItem from="1624540281461" duration="2350000" />
-      <workItem from="1624546780033" duration="21248000" />
+      <workItem from="1624546780033" duration="28561000" />
     </task>
     <task id="LOCAL-00001" summary="db conn postgres 2">
       <created>1624657050710</created>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624713298983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="insert a table function data()">
+      <created>1624730906508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624730906508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +97,8 @@
     <MESSAGE value="db conn postgres 2" />
     <MESSAGE value="create a table in the postgress database" />
     <MESSAGE value="insert a table in the postgress database" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert a table in the postgress database" />
+    <MESSAGE value="insert a table function data()" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert a table function data()" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

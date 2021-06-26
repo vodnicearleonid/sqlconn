@@ -23,15 +23,43 @@ if (!$db) {
 } else {
     //echo "Baza de date a fost deschisă cu succes\n";
     //echo "Baza de date a fost deschisă cu succes pe : " . pg_host($db) . "<br/>\n";
-    $today = date("Y-m-d");
-    $result = pg_query($db, "INSERT INTO users (username, password, email, created_on) VALUES ('Rex','ZpCKjwyQtrpgpAqReeabcudn5s4jTDXw','rex@gmail.com', '$today')");
-    if ($result != "") {
+
+        $today = date("Y-m-d");
+        $result = pg_query($db, "UPDATE users SET created_on = '$today' WHERE user_id = 5 ");
+
+        if ($result != "") {
+            echo "The table was created successfully.\n";
+            exit;
+        }
+}
+
+pg_close($db);
+
+/*
+$db = pg_connect("$host $port $dbname $credentials");
+if (!$db) {
+    echo "Error : Nu se poate deschide baza de date\n";
+} else {
+    //echo "Baza de date a fost deschisă cu succes\n";
+    //echo "Baza de date a fost deschisă cu succes pe : " . pg_host($db) . "<br/>\n";
+    for($i = 1; $i <= 5; $i++) {
+        $username = "Edward#".$i;
+        $password = md5(rand(1, 99));
+        $email = strtolower($username);
+        $today = date("Y-m-d");
+        $result = pg_query($db, "INSERT INTO users (username, password, email, created_on)
+                                                VALUES ('$username','$password','$email@gmail.com','$today')");
+
+        if ($result != "") {
         echo "The table was created successfully.\n";
         exit;
+        }
     }
 }
 
 pg_close($db);
+*/
+
 ?>
 </body>
 </html>
