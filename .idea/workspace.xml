@@ -58,7 +58,7 @@
       <updated>1624540280339</updated>
       <workItem from="1624540281461" duration="2350000" />
       <workItem from="1624546780033" duration="32857000" />
-      <workItem from="1624749452687" duration="3037000" />
+      <workItem from="1624749452687" duration="13270000" />
     </task>
     <task id="LOCAL-00001" summary="db conn postgres 2">
       <created>1624657050710</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624743995283</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="UPDATE DELETE select id dinamic">
+      <created>1624752594277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624752594277</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +114,8 @@
     <MESSAGE value="insert a table in the postgress database" />
     <MESSAGE value="insert a table function data()" />
     <MESSAGE value="UPDATE a table" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE a table" />
+    <MESSAGE value="UPDATE DELETE select id dinamic" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE DELETE select id dinamic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

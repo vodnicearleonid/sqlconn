@@ -12,6 +12,21 @@
 <h3> PHP + MySQL </h3>
 <?php
 
+function printResults($res) {
+    $rows = pg_num_rows($res);;
+    if($rows > 0) {
+
+        while ($row = pg_fetch_assoc($res)) {
+            echo "ID: ". $row['user_id'].'<br>';
+            echo "Name: ". $row['username'].'<br>';
+            echo "Email: ". $row['email'].'<br>';
+            echo "Password: ". $row['password'].'<br>'.'<br>';
+        }
+
+    }
+    echo "<hr>";
+}
+
 $host = "host = localhost";
 $port = "port = 5432";
 $dbname = "dbname = dbphpsql";
@@ -21,52 +36,35 @@ $db = pg_connect("$host $port $dbname $credentials");
 if (!$db) {
     echo "Error : Nu se poate deschide baza de date\n";
 } else {
-    //echo "Baza de date a fost deschisă cu succes\n";
-    //echo "Baza de date a fost deschisă cu succes pe : " . pg_host($db) . "<br/>\n";
 
-        $today = date("Y-m-d");
-        //$result = pg_query($db, "UPDATE users SET created_on = '$today' WHERE user_id = 5 ");
-        //$result = pg_query($db, "UPDATE users SET created_on = '$today' WHERE user_id <= 4 ");
-        //$result = pg_query($db, "DELETE FROM users WHERE user_id < 583431 or user_id = 583434");
-        //$result = pg_query($db, "DELETE FROM users WHERE user_id = 583431 AND username = 'Edward_583430'");
-        $result = pg_query($db, "DELETE FROM users WHERE user_id = 583431 AND username = 'Edward_583430'");
+    //select all *
+    $res_db = pg_query($db, "SELECT * FROM users");
+    printResults($res_db);
 
-        if ($result != "") {
-            echo "The table was created successfully.\n<br>";
-            exit;
-        }
-}
+    // select username, email
+    $res_db = pg_query($db, "SELECT username, email FROM users");
+    printResults($res_db);
 
-pg_close($db);
+    // user_id = 583435
+    $res_db = pg_query($db, "SELECT username, email FROM users WHERE user_id = 583435");
+    printResults($res_db);
 
+    // ORDER BY user_id DESC
+    $res_db = pg_query($db, "SELECT * FROM users WHERE user_id > 1 ORDER BY user_id DESC ");
+    printResults($res_db);
 
-/*
-$db = pg_connect("$host $port $dbname $credentials");
-if (!$db) {
-    echo "Error : Nu se poate deschide baza de date\n";
-} else {
-    //echo "Baza de date a fost deschisă cu succes\n";
-    //echo "Baza de date a fost deschisă cu succes pe : " . pg_host($db) . "<br/>\n";
-    $result = pg_query($db, "SELECT user_id FROM users ORDER BY user_id DESC limit 1");
-    $user_id = pg_fetch_assoc($result);
-    $id = $user_id['user_id'];
+    // ORDER BY user_id DESC
+    $res_db = pg_query($db, "SELECT * FROM users LIMIT 3 ");
+    printResults($res_db);
 
-    for($i = $id; $i < ($id + 5); $i++) {
-        $username = "Edward_".$i;
-        $password = md5(rand(1, 99));
-        $email = strtolower($username);
-        $today = date("Y-m-d");
-        $result = pg_query($db, "INSERT INTO users (username, password, email, created_on)
-                                                VALUES ('$username','$password','$email@gmail.com','$today')");
-
-        if ($result != "") {
-            echo "The table was created successfully.\n<br>";
-        }
+    if ($res_db != "") {
+        echo "The table was created successfully.\n<br>";
+        exit;
     }
 }
 
 pg_close($db);
-*/
+
 ?>
 </body>
 </html>
