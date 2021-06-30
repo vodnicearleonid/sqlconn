@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75f67bcc-3b87-4cfc-9162-dd8514907bdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <updated>1624540280339</updated>
       <workItem from="1624540281461" duration="2350000" />
       <workItem from="1624546780033" duration="32857000" />
-      <workItem from="1624749452687" duration="13270000" />
+      <workItem from="1624749452687" duration="14143000" />
     </task>
     <task id="LOCAL-00001" summary="db conn postgres 2">
       <created>1624657050710</created>
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624752594277</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SELECT, FROM, WHERE, ORDER BY, DESC, ASC">
+      <created>1624913552243</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624913552243</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +121,8 @@
     <MESSAGE value="insert a table function data()" />
     <MESSAGE value="UPDATE a table" />
     <MESSAGE value="UPDATE DELETE select id dinamic" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE DELETE select id dinamic" />
+    <MESSAGE value="SELECT, FROM, WHERE, ORDER BY, DESC, ASC" />
+    <option name="LAST_COMMIT_MESSAGE" value="SELECT, FROM, WHERE, ORDER BY, DESC, ASC" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
