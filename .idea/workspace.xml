@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75f67bcc-3b87-4cfc-9162-dd8514907bdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c028a705-9380-422b-aaa2-c18ca10e8cc0/storage_v2/_src_/database/poputka.BhKF6A/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c028a705-9380-422b-aaa2-c18ca10e8cc0/storage_v2/_src_/database/poputka.BhKF6A/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c028a705-9380-422b-aaa2-c18ca10e8cc0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c028a705-9380-422b-aaa2-c18ca10e8cc0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -12,13 +12,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
+    <include_path>
+      <path value="/usr/local/Cellar/php/8.0.6_1/share/php/pear" />
+    </include_path>
+  </component>
   <component name="ProblemsViewState">
     <option name="showPreview" value="true" />
   </component>
@@ -49,10 +55,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="75f67bcc-3b87-4cfc-9162-dd8514907bdc" name="Default Changelist" comment="" />
@@ -70,6 +79,7 @@
       <workItem from="1625342842127" duration="925000" />
       <workItem from="1625343812987" duration="249000" />
       <workItem from="1625344072751" duration="12000" />
+      <workItem from="1625345428092" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary="db conn postgres 2">
       <created>1624657050710</created>
@@ -142,7 +152,8 @@
     <MESSAGE value="UPDATE DELETE select id dinamic" />
     <MESSAGE value="SELECT, FROM, WHERE, ORDER BY, DESC, ASC" />
     <MESSAGE value="php mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="php mysql" />
+    <MESSAGE value="class test" />
+    <option name="LAST_COMMIT_MESSAGE" value="class test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
