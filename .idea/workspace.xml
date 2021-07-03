@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f67bcc-3b87-4cfc-9162-dd8514907bdc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c028a705-9380-422b-aaa2-c18ca10e8cc0/storage_v2/_src_/database/poputka.BhKF6A/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c028a705-9380-422b-aaa2-c18ca10e8cc0/storage_v2/_src_/database/poputka.BhKF6A/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +18,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/index.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectId" id="1uOcsEQUmXnzVuF148qsmzERDST" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +62,14 @@
       <updated>1624540280339</updated>
       <workItem from="1624540281461" duration="2350000" />
       <workItem from="1624546780033" duration="32857000" />
-      <workItem from="1624749452687" duration="14143000" />
+      <workItem from="1624749452687" duration="16717000" />
+      <workItem from="1625340270151" duration="50000" />
+      <workItem from="1625340633825" duration="115000" />
+      <workItem from="1625340758950" duration="40000" />
+      <workItem from="1625340808458" duration="97000" />
+      <workItem from="1625342842127" duration="925000" />
+      <workItem from="1625343812987" duration="249000" />
+      <workItem from="1625344072751" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="db conn postgres 2">
       <created>1624657050710</created>
@@ -108,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624913552243</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="php mysql">
+      <created>1625072479104</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625072479104</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +141,8 @@
     <MESSAGE value="UPDATE a table" />
     <MESSAGE value="UPDATE DELETE select id dinamic" />
     <MESSAGE value="SELECT, FROM, WHERE, ORDER BY, DESC, ASC" />
-    <option name="LAST_COMMIT_MESSAGE" value="SELECT, FROM, WHERE, ORDER BY, DESC, ASC" />
+    <MESSAGE value="php mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="php mysql" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
