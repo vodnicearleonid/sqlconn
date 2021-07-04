@@ -12,6 +12,8 @@
 <?php
 
 class User {
+    const PASSWORD = "password CONSTANTA "; // constanta
+
     public string $name;
     private string $surname = "EVA";
     private string $email;
@@ -19,36 +21,41 @@ class User {
     private string $password;
 
     function __construct($name, $surname, $login) {
-        $this->$name = $name;
-        $this->$surname = $surname;
-        $this->$login = $login;
+        $this->name = $name;
+        $this->surname = $surname;
+        $this->login = $login;
+        $this->showAll("User: ");
+
+        echo self::PASSWORD . "<br>"; // Afisarea unei constante in metoda di clasa "self"
     }
 
+
+
     function showAll($text = "") {
-        echo $text . $this->name . " , " . $this->surname . "<br>";
+        echo $text . $this->name . " , " . $this->surname . " , " . $this->login . "<br>";
     }
 
     function getSurname() {
         return $this->surname;
     }
 
+    function __destruct() {
+        echo "Destructor: " . __CLASS__ . "<br>";
+    }
+
 }
 
-$admin = new User();
-$admin->name = "John";
-$admin->showAll("User: ");
+$admin = new User("LEONARDO", "VODNICEAR", "LEOlogin");
 $str = $admin->getSurname("User: ");
 echo $str;
 
 echo "<br>";
+//echo User::PASSWORD; // Afisare constanta inafara classei
+echo "<br>";
 
-$redactor = new User();
-$redactor->name = "Bob";
-$redactor->showAll();
+$redactor = new User("Tamara", "Starciuc", "TamaraLogin");
+$moderator = new User("Ramsis", "Motan", "RamsisLoghin");
 
-$moderator = new User();
-$moderator->name = "George";
-$moderator->showAll();
 
 ?>
 
