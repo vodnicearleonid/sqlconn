@@ -13,28 +13,42 @@
 
 class User {
     public string $name;
-    private string $surname = "None";
+    private string $surname = "EVA";
     private string $email;
     private string $login;
     private string $password;
+
+    function __construct($name, $surname, $login) {
+        $this->$name = $name;
+        $this->$surname = $surname;
+        $this->$login = $login;
+    }
+
+    function showAll($text = "") {
+        echo $text . $this->name . " , " . $this->surname . "<br>";
+    }
+
+    function getSurname() {
+        return $this->surname;
+    }
 
 }
 
 $admin = new User();
 $admin->name = "John";
-echo $admin->name;
+$admin->showAll("User: ");
+$str = $admin->getSurname("User: ");
+echo $str;
 
 echo "<br>";
 
 $redactor = new User();
 $redactor->name = "Bob";
-echo $redactor->name;
-
-echo "<br>";
+$redactor->showAll();
 
 $moderator = new User();
 $moderator->name = "George";
-echo $moderator->name;
+$moderator->showAll();
 
 ?>
 

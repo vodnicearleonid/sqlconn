@@ -53,7 +53,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -152,7 +152,8 @@
     <MESSAGE value="php mysql" />
     <MESSAGE value="class test" />
     <MESSAGE value="oop test less1" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop test less1" />
+    <MESSAGE value="Основы ООП. Создание классов и объектов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Основы ООП. Создание классов и объектов" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
