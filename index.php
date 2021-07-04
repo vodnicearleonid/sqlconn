@@ -12,17 +12,29 @@
 <?php
 
 class User {
-    public $name;
-    private $surname = "None";
-    private $email;
-    private $login;
-    private $password;
+    public string $name;
+    private string $surname = "None";
+    private string $email;
+    private string $login;
+    private string $password;
 
 }
 
 $admin = new User();
 $admin->name = "John";
 echo $admin->name;
+
+echo "<br>";
+
+$redactor = new User();
+$redactor->name = "Bob";
+echo $redactor->name;
+
+echo "<br>";
+
+$moderator = new User();
+$moderator->name = "George";
+echo $moderator->name;
 
 ?>
 

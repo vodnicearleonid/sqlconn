@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f67bcc-3b87-4cfc-9162-dd8514907bdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c028a705-9380-422b-aaa2-c18ca10e8cc0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c028a705-9380-422b-aaa2-c18ca10e8cc0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -153,7 +151,8 @@
     <MESSAGE value="SELECT, FROM, WHERE, ORDER BY, DESC, ASC" />
     <MESSAGE value="php mysql" />
     <MESSAGE value="class test" />
-    <option name="LAST_COMMIT_MESSAGE" value="class test" />
+    <MESSAGE value="oop test less1" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop test less1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
