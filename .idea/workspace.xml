@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75f67bcc-3b87-4cfc-9162-dd8514907bdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_Crearea_claselor_OOP.php" afterDir="false" />
-    </list>
+    <list default="true" id="75f67bcc-3b87-4cfc-9162-dd8514907bdc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +152,8 @@
     <MESSAGE value="Основы ООП. Создание классов и объектов" />
     <MESSAGE value="part 1 Создание классов и объектов" />
     <MESSAGE value="part 2 Создание классов и объектов" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 2 Создание классов и объектов" />
+    <MESSAGE value="Наследование классов и свойство protected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Наследование классов и свойство protected" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
