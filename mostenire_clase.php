@@ -25,10 +25,9 @@ class Car
         $this->color = $color;
     }
 
-    function showInfo() {
+    function showSpeed() {
         echo "Speed Car: " . $this->speed . "<br>";
     }
-
 }
 
 class BMW extends Car
@@ -41,16 +40,10 @@ class BMW extends Car
         $this->model = $model;
     }
 
-    function showInfo() {
-        echo "Speed Car: " . $this->speed . "<br>";
+    function setModel(){
         echo "Car model: " . $this->model . "<br>";
         echo "Car color: " . $this->color . "<br>";
     }
-
-//    function setModel(){
-//        echo "Car model: " . $this->model . "<br>";
-//        echo "Car color: " . $this->color . "<br>";
-//    }
 }
 
 class Audi extends Car
@@ -59,12 +52,21 @@ class Audi extends Car
 }
 
 $m3 = new BMW(340, "RED", "M3");
-$m3->showInfo();
-//$m3->setModel("M3");
+$m3->showSpeed();
+$m3->setModel("M3");
 
 echo "<br>";
 
 $x5 = new BMW(250, "Green", "X5");
-$x5->showInfo();
-//$x5->setModel();
+$x5->showSpeed();
+$x5->setModel();
 
+//res
+
+//Speed Car: 340
+//Car model: M3
+//Car color: RED
+
+//Speed Car: 250
+//Car model: X5
+//Car color: Green
