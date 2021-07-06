@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f67bcc-3b87-4cfc-9162-dd8514907bdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/incapsularea.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +157,8 @@
     <MESSAGE value="part 2 Создание классов и объектов" />
     <MESSAGE value="Наследование классов и свойство protected" />
     <MESSAGE value="Инкапсуляция и полиморфизм incapsularea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Инкапсуляция и полиморфизм incapsularea" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
